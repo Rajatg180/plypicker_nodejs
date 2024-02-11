@@ -14,7 +14,7 @@ npm install && npm start
 #### Routers
 
 - auth.js
-- atsk.js
+- task.js
 
 #### User Model
 
