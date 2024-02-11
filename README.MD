@@ -1,5 +1,5 @@
 
-#### Setup
+## Setup
 
 - Clone the Repo
 ```bash
@@ -26,7 +26,7 @@ npm install
 npm start
 ```
 
-#### Routers
+### Routers
 
 ```bash
   1) Register(post) -   http://localhost:3000/api/v1/auth/register 
@@ -37,7 +37,7 @@ npm start
   6) Get all task(get) -  http://localhost:3000/api/v1/task
 ```
 
-#### Register User
+### Register User
 
 - Validate - name, email, password - with Mongoose
 - Hash Password (with bcryptjs)
@@ -45,7 +45,7 @@ npm start
 - Generate Token
 - Send Response with Token
 
-#### Login User
+### Login User
 
 - Validate - email, password - in controller
 - If email or password is missing, throw BadRequestError
@@ -54,6 +54,14 @@ npm start
 - If no user or password does not match, throw UnauthenticatedError
 - If correct, generate Token
 - Send Response with Token
+
+### Test 
+
+#### Register User 
+<img src="https://github.com/Rajatg180/plypicker_flutter/assets/100464536/2264a29f-c70e-4625-b431-a6811f3fdd98" width="300" height="500"> 
+
+
+
 
 
 
