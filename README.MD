@@ -1,27 +1,40 @@
+
 #### Setup
 
+- Clone the Repo
 ```bash
-npm install && npm start
+ git clone https://github.com/Rajatg180/plypicker_nodejs.git
+```
+- Install npm
+
+```bash
+npm install
 ```
 
-#### Database Connection
+- Create .env and Replaces the values with your values 
 
-1. Import connect.js
-2. Invoke in start()
-3. Setup .env in the root
-4. Add MONGO_URI with correct value
+```bash
+  MONGO_URI="YOUR MONGODB URL"
+
+  JWT_SECRET="JWT SECRET"
+  
+  JWT_LIFETIME='30d'
+```
+
+- Start the server 
+```bash
+npm start
+```
 
 #### Routers
 
-- auth.js
-- task.js
-
-#### User Model
-
-Email Validation Regex
-
-```regex
-/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+```bash
+  1) Register(post) -   http://localhost:3000/api/v1/auth/register 
+  2) Login(post) - http://localhost:3000/api/v1/auth/login
+  3) Creat Task(post) -  http://localhost:3000/api/v1/task
+  4) Get Current Users task(get) -  http://localhost:3000/api/v1/task/currentUserTask
+  5) Delete task(Delete) - http://localhost:3000/api/v1/:id  
+  6) Get all task(get) -  http://localhost:3000/api/v1/task
 ```
 
 #### Register User
