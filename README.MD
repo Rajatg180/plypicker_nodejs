@@ -58,7 +58,7 @@ npm start
 ### Test 
 
 #### Register User 
-<img src="https://github.com/Rajatg180/plypicker_flutter/assets/100464536/2264a29f-c70e-4625-b431-a6811f3fdd98" width="300" height="500"> 
+<img src="https://github.com/Rajatg180/plypicker_flutter/assets/100464536/2264a29f-c70e-4625-b431-a6811f3fdd98" width="500" height="500"> 
 
 
 
